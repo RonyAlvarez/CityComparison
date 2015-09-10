@@ -8,27 +8,57 @@
 		width: device-width;
 	}
 
+	.headContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		margin-top: 7%;
+	}
+
+	nav {
+		text-align: center;
+		padding: 10px 0;
+		margin: 20px 0 0;
+
+		display: none;
+	}
+
+	.headItem h1 {
+		color: white;
+		font-family: "Andale Mono", AndaleMono, monospace;
+		/*font-family: 'Pacifico', cursive;*/
+
+		margin-bottom: 30%;
+
+	}
+
 	.item {
 		display: flex;
 		overflow: auto;
+	}
 
+	.item:nth-child(1) {
+		margin-top: 30px;
 	}
 
 	.item:nth-child(1), .item:nth-child(3) {
-		height: 250px;
+		height: auto;
+		width: 90%;
 	}
 
 	.container-4 input#search{
-		width: 170px;
-		height: 35px;
-
-	}
-
-	.headContainer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
+	  width: 300px;
+	  height: 50px;
+	  background: #2b303b;
+	  border: none;
+	  font-size: 10pt;
+	  float: left;
+	  color: #fff;
+	  padding-left: 15px;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
 	}
 
 }

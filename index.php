@@ -1,8 +1,8 @@
 		<head>
 			<title> City Comparison </title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" type="text/css" href="style.css">
 			<link rel="stylesheet" type="text/css" href="responsive.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link href='https://fonts.googleapis.com/css?family=Pacifico|Bree+Serif' rel='stylesheet' type='text/css'>
 		</head>
 
@@ -18,7 +18,7 @@
 			<div class="headItem">
 				<nav>
 					<ul>
-						<li><a href="https://twitter.com/1_rons" target="_blank" class="selected"><img src="twitter.png" class="img" alt="Twitter"/> </a></li>
+						<li><a href="https://twitter.com/1_rons" target="_blank"><img src="twitter.png" class="img" alt="Twitter"/> </a></li>
 						<li><a href="https://www.linkedin.com/pub/rony-alvarez/b6/a7/a1a" target="_blank"><img src="linkedin.png" class="img" alt="Linkedin"/> </a></li>
 					</ul>
 				</nav>
