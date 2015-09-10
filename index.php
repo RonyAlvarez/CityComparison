@@ -36,42 +36,6 @@
 						    <button class="icon"><i class="fa fa-search"></i></button>
 						  </div>
 						</div>
-
-						<!--<div class="box">
-						  <div class="container-1">
-						    <span class="icon"><i class="fa fa-search"></i></span>
-						    <input type="text" name="city" id="search" list="suggestions" placeholder="Search..." />
-						    <datalist id="suggestions">
-								<option value="New York City">
-								<option value="Los Angeles">
-								<option value="Chicago">
-								<option value="Houston">
-								<option value="Philadelphia">
-								<option value="Phoenix">
-								<option value="San Antonio">
-								<option value="San Diego">
-								<option value="Dallas">
-								<option value="San Jose">
-							</datalist>
-						  </div>
-						  	
-						</div>
-							<input type="submit" value="Send" class="fsSubmitButton"/>
-						<!--
-						<input type="text" name="city" list="suggestions" />
-							<datalist id="suggestions">
-								<option value="New York City">
-								<option value="Los Angeles">
-								<option value="Chicago">
-								<option value="Houston">
-								<option value="Philadelphia">
-								<option value="Phoenix">
-								<option value="San Antonio">
-								<option value="San Diego">
-								<option value="Dallas">
-								<option value="San Jose">
-							</datalist>
-						<input type="submit" value="Send"> -->
 				</form>
 			</div>
 
@@ -88,42 +52,6 @@
 						    <button class="icon"><i class="fa fa-search"></i></button>
 						  </div>
 						</div>
-
-						<!--<div class="box">
-						  <div class="container-1">
-						    <span class="icon"><i class="fa fa-search"></i></span>
-						    <input type="text" name="city" id="search" list="suggestions" placeholder="Search..." />
-						    <datalist id="suggestions">
-								<option value="New York City">
-								<option value="Los Angeles">
-								<option value="Chicago">
-								<option value="Houston">
-								<option value="Philadelphia">
-								<option value="Phoenix">
-								<option value="San Antonio">
-								<option value="San Diego">
-								<option value="Dallas">
-								<option value="San Jose">
-							</datalist>
-						  </div>
-						</div>
-
-							<input type="submit" value="Send" class="fsSubmitButton"/>
-						<!--
-						<input type="text" name="city" list="suggestions" />
-							<datalist id="suggestions">
-								<option value="New York City">
-								<option value="Los Angeles">
-								<option value="Chicago">
-								<option value="Houston">
-								<option value="Philadelphia">
-								<option value="Phoenix">
-								<option value="San Antonio">
-								<option value="San Diego">
-								<option value="Dallas">
-								<option value="San Jose">
-							</datalist>
-						<input type="submit" value="Send"> -->
 				</form>
 			</div>
 
