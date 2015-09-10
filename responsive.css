@@ -1,14 +1,35 @@
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
 	/*body {
 		background: navy;
 	}*/
 
+	@-ms-viewport{
+		width: device-width;
+	}
+
 	.item {
 		display: flex;
-		flex-direction: column;
+		overflow: auto;
+
+	}
+
+	.item:nth-child(1), .item:nth-child(3) {
+		height: 250px;
+	}
+
+	.container-4 input#search{
+		width: 170px;
+		height: 35px;
+
+	}
+
+	.headContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
 	}
 
 }
-
 

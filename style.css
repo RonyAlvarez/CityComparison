@@ -318,7 +318,13 @@ transition: background .55s ease;
 
 
 
+/***********************************  
+RESPONSIVE
+************************************/
 
+@-ms-viewport{
+  width: device-width;
+}
 
 
 

@@ -1,5 +1,6 @@
 		<head>
 			<title> City Comparison </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" type="text/css" href="style.css">
 			<link rel="stylesheet" type="text/css" href="responsive.css">
 			<link href='https://fonts.googleapis.com/css?family=Pacifico|Bree+Serif' rel='stylesheet' type='text/css'>
