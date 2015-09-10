@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 480px) {
+	/*body {
+		background: navy;
+	}*/
+
+	.item {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+
