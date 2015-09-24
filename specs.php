@@ -123,7 +123,7 @@ $Austin = array(
 	'Area' => '271.8 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Austinite',
-	'Nickname' => ''
+	'Nickname' => 'Live Music Capital of the World'
 	);
 $Jacksonville = array(
 	'State' => 'Florida',
@@ -133,7 +133,7 @@ $Jacksonville = array(
 	'Area' => '874.6 sq mi',
 	'Time zone' => 'Eastern (EST) (UTC-5)',
 	'Demonym' => 'Jacksonvillian',
-	'Nickname' => ''
+	'Nickname' => 'Where Florida Begins'
 	);
 $Indianapolis = array(
 	'State' => 'Indiana',
@@ -143,7 +143,7 @@ $Indianapolis = array(
 	'Area' => '372 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Indianapolitan',
-	'Nickname' => ''
+	'Nickname' => 'Circle City'
 	);
 $SanFransisco = array(
 	'State' => 'California',
@@ -153,7 +153,7 @@ $SanFransisco = array(
 	'Area' => '231.89 sq mi ',
 	'Time zone' => 'Pacific Time Zone (UTC−8)',
 	'Demonym' => 'San Franciscan',
-	'Nickname' => ''
+	'Nickname' => 'The Golden Gate City'
 	);
 $Columbus = array(
 	'State' => 'Ohio',
@@ -163,7 +163,7 @@ $Columbus = array(
 	'Area' => '223.11 sq mi ',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Columbusite',
-	'Nickname' => ''
+	'Nickname' => 'The Fountain City'
 	);
 $FortWorth = array(
 	'State' => 'Texas',
@@ -173,7 +173,7 @@ $FortWorth = array(
 	'Area' => '349.2 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Fort Worthian',
-	'Nickname' => ''
+	'Nickname' => 'Cowtown'
 	);
 $Charlotte = array(
 	'State' => 'North Carolina',
@@ -183,7 +183,7 @@ $Charlotte = array(
 	'Area' => '297.7 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Charlottean',
-	'Nickname' => ''
+	'Nickname' => 'Queen City'
 	);
 $Detroit = array(
 	'State' => 'Michigan',
@@ -193,7 +193,7 @@ $Detroit = array(
 	'Area' => '142.87 sq mi',
 	'Time zone' => 'EST (UTC−5)',
 	'Demonym' => 'Detroiter',
-	'Nickname' => ''
+	'Nickname' => 'America is Comeback City'
 	);
 $ElPaso = array(
 	'State' => 'Texas',
@@ -203,7 +203,7 @@ $ElPaso = array(
 	'Area' => '256.3 sq mi',
 	'Time zone' => 'MST (UTC-7)',
 	'Demonym' => 'El Pasoan',
-	'Nickname' => ''
+	'Nickname' => 'The City With a Legend'
 	);
 $Memphis = array(
 	'State' => 'Tennessee',
@@ -213,7 +213,7 @@ $Memphis = array(
 	'Area' => '324.0 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Memphian',
-	'Nickname' => ''
+	'Nickname' => 'Birthplace of Rock and Roll'
 	);
 $Boston = array(
 	'State' => 'Massachusetts',
@@ -223,7 +223,7 @@ $Boston = array(
 	'Area' => '89.63 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Bostonian',
-	'Nickname' => ''
+	'Nickname' => 'B-town'
 	);
 $Seattle = array(
 	'State' => 'Washington',
@@ -233,7 +233,7 @@ $Seattle = array(
 	'Area' => '142.5 sq mi',
 	'Time zone' => 'PST (UTC-8)',
 	'Demonym' => 'Seattleite',
-	'Nickname' => ''
+	'Nickname' => 'Rain City'
 	);
 $Denver = array(
 	'State' => 'Colorado',
@@ -243,7 +243,7 @@ $Denver = array(
 	'Area' => '155 sq mi',
 	'Time zone' => 'MST (UTC– 07:00)',
 	'Demonym' => 'Denverite',
-	'Nickname' => ''
+	'Nickname' => 'The Mile-High City'
 	);
 $Washington = array(
 	'State' => 'DC',
@@ -253,7 +253,7 @@ $Washington = array(
 	'Area' => '68.3 sq mi',
 	'Time zone' => 'EST (UTC−5)',
 	'Demonym' => 'Washingtonian',
-	'Nickname' => ''
+	'Nickname' => 'Capital City'
 	);
 $Nashville = array(
 	'State' => 'Tennessee',
@@ -263,7 +263,7 @@ $Nashville = array(
 	'Area' => '525.94 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Nashvillian',
-	'Nickname' => ''
+	'Nickname' => 'Music City'
 	);
 $Baltimore = array(
 	'State' => 'Maryland',
@@ -273,7 +273,7 @@ $Baltimore = array(
 	'Area' => '92.1 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Baltimorean',
-	'Nickname' => ''
+	'Nickname' => 'Monument City'
 	);
 $LouisvilleJefferson = array(
 	'State' => 'Kentucky',
@@ -283,7 +283,7 @@ $LouisvilleJefferson = array(
 	'Area' => '399 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Louisvillian',
-	'Nickname' => ''
+	'Nickname' => 'Derby City'
 	);
 $Portland = array(
 	'State' => 'Oregon',
@@ -293,17 +293,17 @@ $Portland = array(
 	'Area' => '145 sq mi',
 	'Time zone' => 'PST (UTC-8)',
 	'Demonym' => 'Portlander',
-	'Nickname' => ''
+	'Nickname' => 'City of Roses'
 	);
-$Oklahoma = array(
+$OklahomaCity = array(
 	'State' => 'Oklahoma',
-	'Name' => 'Oklahoma',
+	'Name' => 'Oklahoma City',
 	'Rank' => '29th, US',
 	'Population' => '599,199',
 	'Area' => '620.34 sq mi ',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Oklahoman',
-	'Nickname' => ''
+	'Nickname' => 'OKC'
 	);
 $Milwaukee = array(
 	'State' => 'Wisconsin',
@@ -313,7 +313,7 @@ $Milwaukee = array(
 	'Area' => '96.80 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Milwaukeean',
-	'Nickname' => ''
+	'Nickname' => 'Cream City'
 	);
 $LasVegas = array(
 	'State' => 'Nevada',
@@ -323,7 +323,7 @@ $LasVegas = array(
 	'Area' => '135.8 sq mi',
 	'Time zone' => 'PST (UTC−8)',
 	'Demonym' => 'Las Vegan',
-	'Nickname' => ''
+	'Nickname' => 'Sin City'
 	);
 $Albuquerque = array(
 	'State' => 'New Mexico',
@@ -333,7 +333,7 @@ $Albuquerque = array(
 	'Area' => '189.5 sq mi',
 	'Time zone' => 'MST (UTC-7)',
 	'Demonym' => 'Albuquerquean',
-	'Nickname' => ''
+	'Nickname' => 'The Duke City'
 	);
 $Tucson = array(
 	'State' => 'Arizona',
@@ -343,7 +343,7 @@ $Tucson = array(
 	'Area' => '236.2 sq mi ',
 	'Time zone' => 'MST (UTC-7)',
 	'Demonym' => 'Tucsonan',
-	'Nickname' => ''
+	'Nickname' => 'The Old Pueblo'
 	);
 $Fresno = array(
 	'State' => 'California',
@@ -353,7 +353,7 @@ $Fresno = array(
 	'Area' => '112.308 sq mi',
 	'Time zone' => 'Pacific (UTC-8)',
 	'Demonym' => 'Fresnan',
-	'Nickname' => ''
+	'Nickname' => 'The All American City'
 	);
 $Sacramento = array(
 	'State' => 'California',
@@ -363,7 +363,7 @@ $Sacramento = array(
 	'Area' => '100.105 sq mi',
 	'Time zone' => 'Pacific (UTC−8)',
 	'Demonym' => 'Sacramentan',
-	'Nickname' => ''
+	'Nickname' => 'River City'
 	);
 $LongBeach = array(
 	'State' => 'California',
@@ -373,7 +373,7 @@ $LongBeach = array(
 	'Area' => '51.437 sq mi',
 	'Time zone' => 'Pacific (UTC-8)',
 	'Demonym' => 'Long Beacher',
-	'Nickname' => ''
+	'Nickname' => 'The City by the Sea'
 	);
 $KansasCity = array(
 	'State' => 'Missouri',
@@ -383,7 +383,7 @@ $KansasCity = array(
 	'Area' => '319.03 sq mi',
 	'Time zone' => 'CST (UTC−6)',
 	'Demonym' => 'Kansas Citian',
-	'Nickname' => ''
+	'Nickname' => 'Heart of America'
 	);
 $Mesa = array(
 	'State' => 'Arizona',
@@ -392,8 +392,8 @@ $Mesa = array(
 	'Population' => '452,084',
 	'Area' => '133.13 sq mi',
 	'Time zone' => 'MST (UTC-7)',
-	'Demonym' => '',
-	'Nickname' => ''
+	'Demonym' => 'n/a',
+	'Nickname' => 'n/a'
 	);
 $VirginiaBeach = array(
 	'State' => 'Virginia',
@@ -402,8 +402,8 @@ $VirginiaBeach = array(
 	'Population' => '447,021',
 	'Area' => '497 sq mi',
 	'Time zone' => 'EST (UTC-5)',
-	'Demonym' => '',
-	'Nickname' => ''
+	'Demonym' => 'n/a',
+	'Nickname' => 'n/a'
 	);
 $Atlanta = array(
 	'State' => 'Georgia',
@@ -413,7 +413,7 @@ $Atlanta = array(
 	'Area' => '132.4 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Atlantan',
-	'Nickname' => ''
+	'Nickname' => 'The Athens of the South'
 	);
 $ColoradoSprings = array(
 	'State' => 'Colorado',
@@ -422,8 +422,8 @@ $ColoradoSprings = array(
 	'Population' => '431,834',
 	'Area' => '194.7 sq mi',
 	'Time zone' => 'MST (UTC−7)',
-	'Demonym' => '',
-	'Nickname' => ''
+	'Demonym' => 'n/a',
+	'Nickname' => 'City of Millionaires'
 	);
 $Raleigh = array(
 	'State' => 'North Carolina',
@@ -433,7 +433,7 @@ $Raleigh = array(
 	'Area' => '144.8 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Raleighite',
-	'Nickname' => ''
+	'Nickname' => 'The City of Oaks'
 	);
 $Omaha = array(
 	'State' => 'Nebraska',
@@ -442,8 +442,8 @@ $Omaha = array(
 	'Population' => '421,570',
 	'Area' => '130.58 sq mi',
 	'Time zone' => 'CST (UTC-6)',
-	'Demonym' => '',
-	'Nickname' => ''
+	'Demonym' => 'n/a',
+	'Nickname' => 'The Big O'
 	);
 $Miami = array(
 	'State' => 'Florida',
@@ -453,7 +453,7 @@ $Miami = array(
 	'Area' => '55.27 sq mi',
 	'Time zone' => 'EST (UTC-5)',
 	'Demonym' => 'Miamian',
-	'Nickname' => ''
+	'Nickname' => 'Little Cuba'
 	);
 $Oakland = array(
 	'State' => 'California',
@@ -463,7 +463,7 @@ $Oakland = array(
 	'Area' => '78.002 sq mi',
 	'Time zone' => 'Pacific (UTC−8)',
 	'Demonym' => 'Oaklander',
-	'Nickname' => ''
+	'Nickname' => 'Oaktown'
 	);
 $Tulsa = array(
 	'State' => 'Oklahoma',
@@ -473,7 +473,7 @@ $Tulsa = array(
 	'Area' => '196.8 sq mi',
 	'Time zone' => 'CST (UTC−6)',
 	'Demonym' => 'Tulsan',
-	'Nickname' => ''
+	'Nickname' => 'Oil Capital of the World'
 	);
 $Minneapolis = array(
 	'State' => 'Minnesota',
@@ -483,7 +483,7 @@ $Minneapolis = array(
 	'Area' => '58.4 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Minneapolitan',
-	'Nickname' => ''
+	'Nickname' => 'Flour City'
 	);
 $Cleveland = array(
 	'State' => 'Ohio',
@@ -493,7 +493,7 @@ $Cleveland = array(
 	'Area' => '82.47 sq mi',
 	'Time zone' => 'EST (UTC−5)',
 	'Demonym' => 'Clevelander',
-	'Nickname' => ''
+	'Nickname' => 'Mistake on the Lake'
 	);
 $Wichita = array(
 	'State' => 'Kansas',
@@ -503,7 +503,7 @@ $Wichita = array(
 	'Area' => '163.59 sq mi ',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Wichitan',
-	'Nickname' => ''
+	'Nickname' => 'Emerald City'
 	);
 $Arlington = array(
 	'State' => 'Texas',
@@ -513,9 +513,9 @@ $Arlington = array(
 	'Area' => '99.7 sq mi',
 	'Time zone' => 'CST (UTC-6)',
 	'Demonym' => 'Arlingtonite',
-	'Nickname' => ''
+	'Nickname' => 'n/a'
 	);
-$ = array(
+/* $ = array(
 	'State' => '',
 	'Name' => '',
 	'Rank' => '',
@@ -525,7 +525,7 @@ $ = array(
 	'Demonym' => '',
 	'Nickname' => ''
 	);
-
+*/
 
 /***********************************  
 SEARCH BOX INPUT
@@ -539,7 +539,7 @@ $city = $_POST['city'];
 AJAX OUTPUT
 ************************************/
 
-if (strtoupper($city) === 'NEW YORK CITY' || 'NEW YORK') {
+if (strtoupper($city) === 'NEW YORK CITY') {
 
 	echo "State: " . $NewYorkCity['State'] . ".<br>";
 	echo "Name: " . $NewYorkCity['Name'] . ".<br>";
@@ -649,8 +649,6 @@ else {
 		
 	}
 */
-
-
 
 
 
