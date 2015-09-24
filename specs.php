@@ -30,7 +30,7 @@ $LosAngeles = array(
 	'Name' => 'Los Angeles',
 	'Rank' => '2nd, US',
 	'Population' => '3,928,864',
-	'Area' => '8,282 sq mi',
+	'Area' => '503 sq mi',
 	'Time zone' => 'Pacific (UTC-8)',
 	'Demonym' => 'Angeleno',
 	'Nickname' => 'The City of Angels'
@@ -145,9 +145,9 @@ $Indianapolis = array(
 	'Demonym' => 'Indianapolitan',
 	'Nickname' => 'Circle City'
 	);
-$SanFransisco = array(
+$SanFrancisco = array(
 	'State' => 'California',
-	'Name' => 'San Fransisco',
+	'Name' => 'San Francisco',
 	'Rank' => '14th, US',
 	'Population' => '825,863',
 	'Area' => '231.89 sq mi ',
@@ -275,9 +275,9 @@ $Baltimore = array(
 	'Demonym' => 'Baltimorean',
 	'Nickname' => 'Monument City'
 	);
-$LouisvilleJefferson = array(
+$Louisville = array(
 	'State' => 'Kentucky',
-	'Name' => 'Louisville, Jefferson',
+	'Name' => 'Louisville',
 	'Rank' => '27th, US',
 	'Population' => '605,110',
 	'Area' => '399 sq mi',
@@ -640,16 +640,421 @@ elseif (strtoupper($city) === 'SAN JOSE') {
 	echo "Area: " . $SanJose['Area'] . ".<br>";
 	echo "Time zone: " . $SanJose['Time zone'] . ".<br>";	
 	}
+elseif (strtoupper($city) === 'AUSTIN') {
+	echo "State: " . $Austin['State'] . ".<br>";
+	echo "Name: " . $Austin['Name'] . ".<br>";
+	echo "Rank: " . $Austin['Rank'] . ".<br>";
+	echo "Population: " . $Austin['Population'] . ".<br>";
+	echo "Nickname: " . $Austin['Nickname'] . ".<br>";
+	echo "Demonym: " . $Austin['Demonym'] . ".<br>";
+	echo "Area: " . $Austin['Area'] . ".<br>";
+	echo "Time zone: " . $Austin['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'JACKSONVILLE') {
+	echo "State: " . $Jacksonville['State'] . ".<br>";
+	echo "Name: " . $Jacksonville['Name'] . ".<br>";
+	echo "Rank: " . $Jacksonville['Rank'] . ".<br>";
+	echo "Population: " . $Jacksonville['Population'] . ".<br>";
+	echo "Nickname: " . $Jacksonville['Nickname'] . ".<br>";
+	echo "Demonym: " . $Jacksonville['Demonym'] . ".<br>";
+	echo "Area: " . $Jacksonville['Area'] . ".<br>";
+	echo "Time zone: " . $Jacksonville['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'INDIANAPOLIS') {
+	echo "State: " . $Indianapolis['State'] . ".<br>";
+	echo "Name: " . $Indianapolis['Name'] . ".<br>";
+	echo "Rank: " . $Indianapolis['Rank'] . ".<br>";
+	echo "Population: " . $Indianapolis['Population'] . ".<br>";
+	echo "Nickname: " . $Indianapolis['Nickname'] . ".<br>";
+	echo "Demonym: " . $Indianapolis['Demonym'] . ".<br>";
+	echo "Area: " . $Indianapolis['Area'] . ".<br>";
+	echo "Time zone: " . $Indianapolis['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'SAN FRANCISCO') {
+	echo "State: " . $SanFrancisco['State'] . ".<br>";
+	echo "Name: " . $SanFrancisco['Name'] . ".<br>";
+	echo "Rank: " . $SanFrancisco['Rank'] . ".<br>";
+	echo "Population: " . $SanFrancisco['Population'] . ".<br>";
+	echo "Nickname: " . $SanFrancisco['Nickname'] . ".<br>";
+	echo "Demonym: " . $SanFrancisco['Demonym'] . ".<br>";
+	echo "Area: " . $SanFrancisco['Area'] . ".<br>";
+	echo "Time zone: " . $SanFrancisco['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'COLUMBUS') {
+	echo "State: " . $Columbus['State'] . ".<br>";
+	echo "Name: " . $Columbus['Name'] . ".<br>";
+	echo "Rank: " . $Columbus['Rank'] . ".<br>";
+	echo "Population: " . $Columbus['Population'] . ".<br>";
+	echo "Nickname: " . $Columbus['Nickname'] . ".<br>";
+	echo "Demonym: " . $Columbus['Demonym'] . ".<br>";
+	echo "Area: " . $Columbus['Area'] . ".<br>";
+	echo "Time zone: " . $Columbus['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'FORT WORTH') {
+	echo "State: " . $FortWorth['State'] . ".<br>";
+	echo "Name: " . $FortWorth['Name'] . ".<br>";
+	echo "Rank: " . $FortWorth['Rank'] . ".<br>";
+	echo "Population: " . $FortWorth['Population'] . ".<br>";
+	echo "Nickname: " . $FortWorth['Nickname'] . ".<br>";
+	echo "Demonym: " . $FortWorth['Demonym'] . ".<br>";
+	echo "Area: " . $FortWorth['Area'] . ".<br>";
+	echo "Time zone: " . $FortWorth['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'CHARLOTTE') {
+	echo "State: " . $Charlotte['State'] . ".<br>";
+	echo "Name: " . $Charlotte['Name'] . ".<br>";
+	echo "Rank: " . $Charlotte['Rank'] . ".<br>";
+	echo "Population: " . $Charlotte['Population'] . ".<br>";
+	echo "Nickname: " . $Charlotte['Nickname'] . ".<br>";
+	echo "Demonym: " . $Charlotte['Demonym'] . ".<br>";
+	echo "Area: " . $Charlotte['Area'] . ".<br>";
+	echo "Time zone: " . $Charlotte['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'DETROIT') {
+	echo "State: " . $Detroit['State'] . ".<br>";
+	echo "Name: " . $Detroit['Name'] . ".<br>";
+	echo "Rank: " . $Detroit['Rank'] . ".<br>";
+	echo "Population: " . $Detroit['Population'] . ".<br>";
+	echo "Nickname: " . $Detroit['Nickname'] . ".<br>";
+	echo "Demonym: " . $Detroit['Demonym'] . ".<br>";
+	echo "Area: " . $Detroit['Area'] . ".<br>";
+	echo "Time zone: " . $Detroit['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'EL PASO') {
+	echo "State: " . $ElPaso['State'] . ".<br>";
+	echo "Name: " . $ElPaso['Name'] . ".<br>";
+	echo "Rank: " . $ElPaso['Rank'] . ".<br>";
+	echo "Population: " . $ElPaso['Population'] . ".<br>";
+	echo "Nickname: " . $ElPaso['Nickname'] . ".<br>";
+	echo "Demonym: " . $ElPaso['Demonym'] . ".<br>";
+	echo "Area: " . $ElPaso['Area'] . ".<br>";
+	echo "Time zone: " . $ElPaso['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'MEMPHIS') {
+	echo "State: " . $Memphis['State'] . ".<br>";
+	echo "Name: " . $Memphis['Name'] . ".<br>";
+	echo "Rank: " . $Memphis['Rank'] . ".<br>";
+	echo "Population: " . $Memphis['Population'] . ".<br>";
+	echo "Nickname: " . $Memphis['Nickname'] . ".<br>";
+	echo "Demonym: " . $Memphis['Demonym'] . ".<br>";
+	echo "Area: " . $Memphis['Area'] . ".<br>";
+	echo "Time zone: " . $Memphis['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'BOSTON') {
+	echo "State: " . $Boston['State'] . ".<br>";
+	echo "Name: " . $Boston['Name'] . ".<br>";
+	echo "Rank: " . $Boston['Rank'] . ".<br>";
+	echo "Population: " . $Boston['Population'] . ".<br>";
+	echo "Nickname: " . $Boston['Nickname'] . ".<br>";
+	echo "Demonym: " . $Boston['Demonym'] . ".<br>";
+	echo "Area: " . $Boston['Area'] . ".<br>";
+	echo "Time zone: " . $Boston['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'SEATTLE') {
+	echo "State: " . $Seattle['State'] . ".<br>";
+	echo "Name: " . $Seattle['Name'] . ".<br>";
+	echo "Rank: " . $Seattle['Rank'] . ".<br>";
+	echo "Population: " . $Seattle['Population'] . ".<br>";
+	echo "Nickname: " . $Seattle['Nickname'] . ".<br>";
+	echo "Demonym: " . $Seattle['Demonym'] . ".<br>";
+	echo "Area: " . $Seattle['Area'] . ".<br>";
+	echo "Time zone: " . $Seattle['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'DENVER') {
+	echo "State: " . $Denver['State'] . ".<br>";
+	echo "Name: " . $Denver['Name'] . ".<br>";
+	echo "Rank: " . $Denver['Rank'] . ".<br>";
+	echo "Population: " . $Denver['Population'] . ".<br>";
+	echo "Nickname: " . $Denver['Nickname'] . ".<br>";
+	echo "Demonym: " . $Denver['Demonym'] . ".<br>";
+	echo "Area: " . $Denver['Area'] . ".<br>";
+	echo "Time zone: " . $Denver['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'WASHINGTON') {
+	echo "State: " . $Washington['State'] . ".<br>";
+	echo "Name: " . $Washington['Name'] . ".<br>";
+	echo "Rank: " . $Washington['Rank'] . ".<br>";
+	echo "Population: " . $Washington['Population'] . ".<br>";
+	echo "Nickname: " . $Washington['Nickname'] . ".<br>";
+	echo "Demonym: " . $Washington['Demonym'] . ".<br>";
+	echo "Area: " . $Washington['Area'] . ".<br>";
+	echo "Time zone: " . $Washington['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'NASHVILLE') {
+	echo "State: " . $Nashville['State'] . ".<br>";
+	echo "Name: " . $Nashville['Name'] . ".<br>";
+	echo "Rank: " . $Nashville['Rank'] . ".<br>";
+	echo "Population: " . $Nashville['Population'] . ".<br>";
+	echo "Nickname: " . $Nashville['Nickname'] . ".<br>";
+	echo "Demonym: " . $Nashville['Demonym'] . ".<br>";
+	echo "Area: " . $Nashville['Area'] . ".<br>";
+	echo "Time zone: " . $Nashville['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'BALTIMORE') {
+	echo "State: " . $Baltimore['State'] . ".<br>";
+	echo "Name: " . $Baltimore['Name'] . ".<br>";
+	echo "Rank: " . $Baltimore['Rank'] . ".<br>";
+	echo "Population: " . $Baltimore['Population'] . ".<br>";
+	echo "Nickname: " . $Baltimore['Nickname'] . ".<br>";
+	echo "Demonym: " . $Baltimore['Demonym'] . ".<br>";
+	echo "Area: " . $Baltimore['Area'] . ".<br>";
+	echo "Time zone: " . $Baltimore['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'LOUSVILLE') {
+	echo "State: " . $Louisville['State'] . ".<br>";
+	echo "Name: " . $Louisville['Name'] . ".<br>";
+	echo "Rank: " . $Louisville['Rank'] . ".<br>";
+	echo "Population: " . $Louisville['Population'] . ".<br>";
+	echo "Nickname: " . $Louisville['Nickname'] . ".<br>";
+	echo "Demonym: " . $Louisville['Demonym'] . ".<br>";
+	echo "Area: " . $Louisville['Area'] . ".<br>";
+	echo "Time zone: " . $Louisville['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'PORTLAND') {
+	echo "State: " . $Portland['State'] . ".<br>";
+	echo "Name: " . $Portland['Name'] . ".<br>";
+	echo "Rank: " . $Portland['Rank'] . ".<br>";
+	echo "Population: " . $Portland['Population'] . ".<br>";
+	echo "Nickname: " . $Portland['Nickname'] . ".<br>";
+	echo "Demonym: " . $Portland['Demonym'] . ".<br>";
+	echo "Area: " . $Portland['Area'] . ".<br>";
+	echo "Time zone: " . $Portland['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'OKLAHOMA CITY') {
+	echo "State: " . $Oklahoma['State'] . ".<br>";
+	echo "Name: " . $Oklahoma['Name'] . ".<br>";
+	echo "Rank: " . $Oklahoma['Rank'] . ".<br>";
+	echo "Population: " . $Oklahoma['Population'] . ".<br>";
+	echo "Nickname: " . $Oklahoma['Nickname'] . ".<br>";
+	echo "Demonym: " . $Oklahoma['Demonym'] . ".<br>";
+	echo "Area: " . $Oklahoma['Area'] . ".<br>";
+	echo "Time zone: " . $Oklahoma['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'MILWAUKEE') {
+	echo "State: " . $Milwaukee['State'] . ".<br>";
+	echo "Name: " . $Milwaukee['Name'] . ".<br>";
+	echo "Rank: " . $Milwaukee['Rank'] . ".<br>";
+	echo "Population: " . $Milwaukee['Population'] . ".<br>";
+	echo "Nickname: " . $Milwaukee['Nickname'] . ".<br>";
+	echo "Demonym: " . $Milwaukee['Demonym'] . ".<br>";
+	echo "Area: " . $Milwaukee['Area'] . ".<br>";
+	echo "Time zone: " . $Milwaukee['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'LAS VEGAS') {
+	echo "State: " . $LasVegas['State'] . ".<br>";
+	echo "Name: " . $LasVegas['Name'] . ".<br>";
+	echo "Rank: " . $LasVegas['Rank'] . ".<br>";
+	echo "Population: " . $LasVegas['Population'] . ".<br>";
+	echo "Nickname: " . $LasVegas['Nickname'] . ".<br>";
+	echo "Demonym: " . $LasVegas['Demonym'] . ".<br>";
+	echo "Area: " . $LasVegas['Area'] . ".<br>";
+	echo "Time zone: " . $LasVegas['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'ALBUQUERQUE') {
+	echo "State: " . $Albuquerque['State'] . ".<br>";
+	echo "Name: " . $Albuquerque['Name'] . ".<br>";
+	echo "Rank: " . $Albuquerque['Rank'] . ".<br>";
+	echo "Population: " . $Albuquerque['Population'] . ".<br>";
+	echo "Nickname: " . $Albuquerque['Nickname'] . ".<br>";
+	echo "Demonym: " . $Albuquerque['Demonym'] . ".<br>";
+	echo "Area: " . $Albuquerque['Area'] . ".<br>";
+	echo "Time zone: " . $Albuquerque['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'TUCSON') {
+	echo "State: " . $Tucson['State'] . ".<br>";
+	echo "Name: " . $Tucson['Name'] . ".<br>";
+	echo "Rank: " . $Tucson['Rank'] . ".<br>";
+	echo "Population: " . $Tucson['Population'] . ".<br>";
+	echo "Nickname: " . $Tucson['Nickname'] . ".<br>";
+	echo "Demonym: " . $Tucson['Demonym'] . ".<br>";
+	echo "Area: " . $Tucson['Area'] . ".<br>";
+	echo "Time zone: " . $Tucson['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'FRESNO') {
+	echo "State: " . $Fresno['State'] . ".<br>";
+	echo "Name: " . $Fresno['Name'] . ".<br>";
+	echo "Rank: " . $Fresno['Rank'] . ".<br>";
+	echo "Population: " . $Fresno['Population'] . ".<br>";
+	echo "Nickname: " . $Fresno['Nickname'] . ".<br>";
+	echo "Demonym: " . $Fresno['Demonym'] . ".<br>";
+	echo "Area: " . $Fresno['Area'] . ".<br>";
+	echo "Time zone: " . $Fresno['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'SACRAMENTO') {
+	echo "State: " . $Sacramento['State'] . ".<br>";
+	echo "Name: " . $Sacramento['Name'] . ".<br>";
+	echo "Rank: " . $Sacramento['Rank'] . ".<br>";
+	echo "Population: " . $Sacramento['Population'] . ".<br>";
+	echo "Nickname: " . $Sacramento['Nickname'] . ".<br>";
+	echo "Demonym: " . $Sacramento['Demonym'] . ".<br>";
+	echo "Area: " . $Sacramento['Area'] . ".<br>";
+	echo "Time zone: " . $Sacramento['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'LONG BEACH') {
+	echo "State: " . $LongBeach['State'] . ".<br>";
+	echo "Name: " . $LongBeach['Name'] . ".<br>";
+	echo "Rank: " . $LongBeach['Rank'] . ".<br>";
+	echo "Population: " . $LongBeach['Population'] . ".<br>";
+	echo "Nickname: " . $LongBeach['Nickname'] . ".<br>";
+	echo "Demonym: " . $LongBeach['Demonym'] . ".<br>";
+	echo "Area: " . $LongBeach['Area'] . ".<br>";
+	echo "Time zone: " . $LongBeach['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'KANSAS CITY') {
+	echo "State: " . $KansasCity['State'] . ".<br>";
+	echo "Name: " . $KansasCity['Name'] . ".<br>";
+	echo "Rank: " . $KansasCity['Rank'] . ".<br>";
+	echo "Population: " . $KansasCity['Population'] . ".<br>";
+	echo "Nickname: " . $KansasCity['Nickname'] . ".<br>";
+	echo "Demonym: " . $KansasCity['Demonym'] . ".<br>";
+	echo "Area: " . $KansasCity['Area'] . ".<br>";
+	echo "Time zone: " . $KansasCity['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'MESA') {
+	echo "State: " . $Mesa['State'] . ".<br>";
+	echo "Name: " . $Mesa['Name'] . ".<br>";
+	echo "Rank: " . $Mesa['Rank'] . ".<br>";
+	echo "Population: " . $Mesa['Population'] . ".<br>";
+	echo "Nickname: " . $Mesa['Nickname'] . ".<br>";
+	echo "Demonym: " . $Mesa['Demonym'] . ".<br>";
+	echo "Area: " . $Mesa['Area'] . ".<br>";
+	echo "Time zone: " . $Mesa['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'VIRGINIA BEACH') {
+	echo "State: " . $VirginiaBeach['State'] . ".<br>";
+	echo "Name: " . $VirginiaBeach['Name'] . ".<br>";
+	echo "Rank: " . $VirginiaBeach['Rank'] . ".<br>";
+	echo "Population: " . $VirginiaBeach['Population'] . ".<br>";
+	echo "Nickname: " . $VirginiaBeach['Nickname'] . ".<br>";
+	echo "Demonym: " . $VirginiaBeach['Demonym'] . ".<br>";
+	echo "Area: " . $VirginiaBeach['Area'] . ".<br>";
+	echo "Time zone: " . $VirginiaBeach['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'ATLANTA') {
+	echo "State: " . $Atlanta['State'] . ".<br>";
+	echo "Name: " . $Atlanta['Name'] . ".<br>";
+	echo "Rank: " . $Atlanta['Rank'] . ".<br>";
+	echo "Population: " . $Atlanta['Population'] . ".<br>";
+	echo "Nickname: " . $Atlanta['Nickname'] . ".<br>";
+	echo "Demonym: " . $Atlanta['Demonym'] . ".<br>";
+	echo "Area: " . $Atlanta['Area'] . ".<br>";
+	echo "Time zone: " . $Atlanta['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'COLORADO SPRINGS') {
+	echo "State: " . $ColoradoSprings['State'] . ".<br>";
+	echo "Name: " . $ColoradoSprings['Name'] . ".<br>";
+	echo "Rank: " . $ColoradoSprings['Rank'] . ".<br>";
+	echo "Population: " . $ColoradoSprings['Population'] . ".<br>";
+	echo "Nickname: " . $ColoradoSprings['Nickname'] . ".<br>";
+	echo "Demonym: " . $ColoradoSprings['Demonym'] . ".<br>";
+	echo "Area: " . $ColoradoSprings['Area'] . ".<br>";
+	echo "Time zone: " . $ColoradoSprings['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'RALEIGH') {
+	echo "State: " . $Raleigh['State'] . ".<br>";
+	echo "Name: " . $Raleigh['Name'] . ".<br>";
+	echo "Rank: " . $Raleigh['Rank'] . ".<br>";
+	echo "Population: " . $Raleigh['Population'] . ".<br>";
+	echo "Nickname: " . $Raleigh['Nickname'] . ".<br>";
+	echo "Demonym: " . $Raleigh['Demonym'] . ".<br>";
+	echo "Area: " . $Raleigh['Area'] . ".<br>";
+	echo "Time zone: " . $Raleigh['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'OMAHA') {
+	echo "State: " . $Omaha['State'] . ".<br>";
+	echo "Name: " . $Omaha['Name'] . ".<br>";
+	echo "Rank: " . $Omaha['Rank'] . ".<br>";
+	echo "Population: " . $Omaha['Population'] . ".<br>";
+	echo "Nickname: " . $Omaha['Nickname'] . ".<br>";
+	echo "Demonym: " . $Omaha['Demonym'] . ".<br>";
+	echo "Area: " . $Omaha['Area'] . ".<br>";
+	echo "Time zone: " . $Omaha['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'MIAMI') {
+	echo "State: " . $Miami['State'] . ".<br>";
+	echo "Name: " . $Miami['Name'] . ".<br>";
+	echo "Rank: " . $Miami['Rank'] . ".<br>";
+	echo "Population: " . $Miami['Population'] . ".<br>";
+	echo "Nickname: " . $Miami['Nickname'] . ".<br>";
+	echo "Demonym: " . $Miami['Demonym'] . ".<br>";
+	echo "Area: " . $Miami['Area'] . ".<br>";
+	echo "Time zone: " . $Miami['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'OAKLAND') {
+	echo "State: " . $Oakland['State'] . ".<br>";
+	echo "Name: " . $Oakland['Name'] . ".<br>";
+	echo "Rank: " . $Oakland['Rank'] . ".<br>";
+	echo "Population: " . $Oakland['Population'] . ".<br>";
+	echo "Nickname: " . $Oakland['Nickname'] . ".<br>";
+	echo "Demonym: " . $Oakland['Demonym'] . ".<br>";
+	echo "Area: " . $Oakland['Area'] . ".<br>";
+	echo "Time zone: " . $Oakland['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'TULSA') {
+	echo "State: " . $Tulsa['State'] . ".<br>";
+	echo "Name: " . $Tulsa['Name'] . ".<br>";
+	echo "Rank: " . $Tulsa['Rank'] . ".<br>";
+	echo "Population: " . $Tulsa['Population'] . ".<br>";
+	echo "Nickname: " . $Tulsa['Nickname'] . ".<br>";
+	echo "Demonym: " . $Tulsa['Demonym'] . ".<br>";
+	echo "Area: " . $Tulsa['Area'] . ".<br>";
+	echo "Time zone: " . $Tulsa['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'MINNEAPOLIS') {
+	echo "State: " . $Minneapolis['State'] . ".<br>";
+	echo "Name: " . $Minneapolis['Name'] . ".<br>";
+	echo "Rank: " . $Minneapolis['Rank'] . ".<br>";
+	echo "Population: " . $Minneapolis['Population'] . ".<br>";
+	echo "Nickname: " . $Minneapolis['Nickname'] . ".<br>";
+	echo "Demonym: " . $Minneapolis['Demonym'] . ".<br>";
+	echo "Area: " . $Minneapolis['Area'] . ".<br>";
+	echo "Time zone: " . $Minneapolis['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'CLEVELAND') {
+	echo "State: " . $Cleveland['State'] . ".<br>";
+	echo "Name: " . $Cleveland['Name'] . ".<br>";
+	echo "Rank: " . $Cleveland['Rank'] . ".<br>";
+	echo "Population: " . $Cleveland['Population'] . ".<br>";
+	echo "Nickname: " . $Cleveland['Nickname'] . ".<br>";
+	echo "Demonym: " . $Cleveland['Demonym'] . ".<br>";
+	echo "Area: " . $Cleveland['Area'] . ".<br>";
+	echo "Time zone: " . $Cleveland['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'WICHITA') {
+	echo "State: " . $Wichita['State'] . ".<br>";
+	echo "Name: " . $Wichita['Name'] . ".<br>";
+	echo "Rank: " . $Wichita['Rank'] . ".<br>";
+	echo "Population: " . $Wichita['Population'] . ".<br>";
+	echo "Nickname: " . $Wichita['Nickname'] . ".<br>";
+	echo "Demonym: " . $Wichita['Demonym'] . ".<br>";
+	echo "Area: " . $Wichita['Area'] . ".<br>";
+	echo "Time zone: " . $Wichita['Time zone'] . ".<br>";	
+	}
+elseif (strtoupper($city) === 'ARLINGTON') {
+	echo "State: " . $Arlington['State'] . ".<br>";
+	echo "Name: " . $Arlington['Name'] . ".<br>";
+	echo "Rank: " . $Arlington['Rank'] . ".<br>";
+	echo "Population: " . $Arlington['Population'] . ".<br>";
+	echo "Nickname: " . $Arlington['Nickname'] . ".<br>";
+	echo "Demonym: " . $Arlington['Demonym'] . ".<br>";
+	echo "Area: " . $Arlington['Area'] . ".<br>";
+	echo "Time zone: " . $Arlington['Time zone'] . ".<br>";	
+	}
+/*
+elseif (strtoupper($city) === '') {
+	echo "State: " . $['State'] . ".<br>";
+	echo "Name: " . $['Name'] . ".<br>";
+	echo "Rank: " . $['Rank'] . ".<br>";
+	echo "Population: " . $['Population'] . ".<br>";
+	echo "Nickname: " . $['Nickname'] . ".<br>";
+	echo "Demonym: " . $['Demonym'] . ".<br>";
+	echo "Area: " . $['Area'] . ".<br>";
+	echo "Time zone: " . $['Time zone'] . ".<br>";	
+	}
+*/
+	
 else {
 	echo "Incorrect input, Try again.";
 }
-
-/*
-	for () {
-		
-	}
-*/
-
-
 
 ?>
