@@ -19,7 +19,6 @@
 				<nav>
 					<ul>
 						<li><a href="https://twitter.com/1_rons" target="_blank"><img src="twitter.png" class="img" alt="Twitter"/> </a></li>
-						<li><a href="https://www.linkedin.com/pub/rony-alvarez/b6/a7/a1a" target="_blank"><img src="linkedin.png" class="img" alt="Linkedin"/> </a></li>
 					</ul>
 				</nav>
 			</div>
