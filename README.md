@@ -1,3 +1,3 @@
 #City Comparison
 
-This is a simple application that compares US cities.
+This is a simple web application that compares US cities.
